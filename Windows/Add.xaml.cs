@@ -21,12 +21,9 @@ namespace Regex_Kazakov.Windows
     {
         public Classes.Passport EditPassports;
 
-        private MainWindow init;
-
-        public Add(MainWindow mainWindow, Classes.Passport editPassports)
+        public Add(Classes.Passport editPassports)
         {
             InitializeComponent();
-            init = mainWindow;
 
             if (EditPassports != null){
                 Name.Text = EditPassports.Name;
