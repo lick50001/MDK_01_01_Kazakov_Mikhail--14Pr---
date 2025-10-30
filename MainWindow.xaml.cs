@@ -27,7 +27,7 @@ namespace Regex_Kazakov
 
         private void Add(object sender, RoutedEventArgs e)
         {
-            //asdasdsd
+            
         }
 
         private void Update(object sender, RoutedEventArgs e)
