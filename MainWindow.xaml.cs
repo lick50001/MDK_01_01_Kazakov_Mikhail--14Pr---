@@ -27,14 +27,12 @@ namespace Regex_Kazakov
         {
             InitializeComponent();
             init = this;
-
-            //asdasd
-
         }
 
-        public void LoadPassorts() {
+        public void LoadPassports()
+        {
             lv_passport.Items.Clear();
-            foreach(Classes.Passport passport in Passports)
+            foreach (Classes.Passport passport in Passports)
                 lv_passport.Items.Add(passport);
         }
 
@@ -58,7 +56,7 @@ namespace Regex_Kazakov
             if (lv_passport.SelectedIndex > -1)
             {
                 Passports.Remove(lv_passport.SelectedItem as Classes.Passport);
-                LoadPassorts();
+                LoadPassports();
             }
             else
                 MessageBox.Show("Выберите элемент для удаления");
