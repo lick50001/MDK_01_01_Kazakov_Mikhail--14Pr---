@@ -28,6 +28,8 @@ namespace Regex_Kazakov
             InitializeComponent();
             init = this;
 
+            //asdasd
+
         }
 
         public void LoadPassorts() {
